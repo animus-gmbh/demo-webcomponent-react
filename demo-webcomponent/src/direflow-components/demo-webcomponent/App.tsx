@@ -17,8 +17,8 @@ const App: FC<IProps> = (props) => {
   return (
     <Styled styles={styles}>
       <div className='app'>
-        <div className='header-title'>{props.componentTitle}</div>
-        <button className='button' onClick={handleClick}>
+        <h1>{props.componentTitle}</h1>
+        <button className='button btn btn-primary' onClick={handleClick}>
           Click me!
         </button>
       </div>
